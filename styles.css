@@ -183,6 +183,37 @@ button {
   top: 0;
 }
 
+/* css for blog html file */
+.header-title {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  margin: 70px 0;
+}
+
+.topic-card {
+  color: #fff;
+  padding: 50px 70px;
+  border-radius: 15px;
+  background: linear-gradient(
+    92.49deg,
+    rgba(255, 255, 255, 0.1) 0.18%,
+    rgba(255, 255, 255, 0.05) 99.85%
+  );
+  backdrop-filter: blur(5px);
+  margin-bottom: 40px;
+}
+
+.topic-title {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.list {
+  text-align: justify;
+  margin-bottom: 16px;
+}
+
 @media only screen and (max-width: 700px) {
   .box-container {
     padding: 0 20px;
